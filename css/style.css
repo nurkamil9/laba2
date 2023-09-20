@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.xbox__first{
+    background: #373A3C;
+    padding: 10px 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.xbox__main{
+    background:url(../img/Star-Wars-Battlefront-II-combat\ \(2\).png);
+    padding-bottom: 200px;
+}
+.xbox__state{
+    padding: 200px 0px 0px 700px;
+    
+}
+.xbox__menu{
+    display: flex;
+}
+.xbox__choice{
+    background-color: #373A3C;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+
+}
+.xbox__choice option{
+}
+.text{
+    color: #FFFFFF80;
+}
+.xbox__search{
+    width: 209.8px;
+    height: 38px;
+    border: 1px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    margin: 0px 30px;
+}
+.xbox__searchengine{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin-left: 350px;
+    align-items: center;
+}
+.xbox__down{
+    margin: 0px 30px ;
+}
+.xbox__title h1{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+}
+.xbox__title h2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+.texts{
+    color: #FFFFFF;
+}
+.xbox__btns{
+    margin-top: 130px;
+}
+.xbox__btn{
+    width: 136px;
+    height: 38px;
+    color: #FFFFFF;
+}
+.first{
+    background: #8DD83D;
+}
+.second {
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+
+/* cards */
+.xbox__cards{
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+    padding-top: 50px;
+    height:865px;
+}
+.cards__state{
+    text-align: center;
+}
+.cards__title h1 {
+    font-family: Roboto;
+    font-size: 48px; 
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;
+}
+.cards__title h3 {
+   font-family: Roboto;
+   font-size: 36px;
+   font-weight: 400;
+   line-height: 42px;
+   letter-spacing: 0px;
+   margin: 10px 0px 50px;
+}
+.cards__block{
+    display: flex;
+    justify-content: space-between;
+}
+.cards__card{
+    width: 320px;
+    height: 420px;
+    border: 1px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.cards__btn{
+    width: 278px;
+    height: 60px;
+}
+.cards__card p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: start;
+}
+.cards__card h3 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: start;
+}
+.cards__title{
+    padding: 10px 0px 20px 10px;
+}
+/* game */
+.game {
+    background: url(../img/Rectangle.png);
+    padding: 100px 0px 150px;
+}
+.game__state h1{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0px;    
+}
+.game__state h3 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin: 20px 0px 60px;
+}
+.game__btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    width: 207px;
+    height: 60px;
+    border-radius: 5px;
+    
+}
+.game__btn_active{
+    width: 278px;
+    height: 60px;
+  margin-left: 10px;
+ }
+ /* last */
+ .last{
+    background: #373A3C;
+    padding-top:70px ;
+    height:495px;
+}
+ .last__upper{
+    display: flex;
+ }
+ .last__upper li {
+    list-style: none;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+ }
+.last__list {
+    margin:0px 300px ;
+}
+.last__xbox{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #7DD42F;
+    margin-bottom: 40px;
+}
+.last__image{
+    margin: 0px 20px 0px;
+}
+.last__titles{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+}
+.last__title{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+}
